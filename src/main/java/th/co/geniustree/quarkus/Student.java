@@ -9,7 +9,7 @@ import java.util.List;
 public class Student {
     @NotEmpty
     public String name;
-    @NotEmpty
+    @Valid
     public List<@NotEmpty String> subjects = new ArrayList<>(); //<list item>
 
     @Valid

@@ -44,11 +44,4 @@ public class GreetingResource extends HxController {
         return Template.index(student);
     }
 
-    @POST
-    @Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
-    public Student xx(Student student) {
-        System.out.println("student: " + student);
-        return student;
-    }
 }
