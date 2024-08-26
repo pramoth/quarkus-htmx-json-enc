@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'SyneMono';
+    src: url("/static/fonts/SyneMono-Regular.ttf") format("truetype");
+
+    font-family: "Sarabun";
+    src: url("/static/fonts/Sarabun/Sarabun-Regular.ttf");
+
+    font-family: "IBMPlexSansThaiLooped";
+    src: url("/static/fonts/IBM_Plex_Sans_Thai_Looped/IBMPlexSansThaiLooped-Regular.ttf");
+
+    font-family: "IBMPlexSansThai";
+    src: url("/static/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Regular.ttf");
+}
+
+* {
+    font-family: IBMPlexSansThai, Sarabun, serif;
+}
+
+@import "bootstrap/dist/css/bootstrap.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./custom.css";
+@import "./header.css";
+@import "./layout.css";
+@import "./sidebar.css";
+//@import "variables";
